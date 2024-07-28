@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971976648036",
+    "project_id": "tt-firebase-7dfd1",
+    "storage_bucket": "tt-firebase-7dfd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971976648036:android:e1cc340173662a332f0671",
+        "android_client_info": {
+          "package_name": "com.mycompany.ttfire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5qTBqMWfoYOAF6WsCUF75S7nnXsUA5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
