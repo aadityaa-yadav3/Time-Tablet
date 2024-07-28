@@ -29,7 +29,7 @@ Introducing my versatile Timetable and Attendance App, crafted with Flutter and 
 ## Workflow
 
   <img src="images/Total-Workflow.png" alt="Total Workflow" />
-  Summary of the Front-End Workflow of the App: After Logging in from the Login Page, you land at the Home Page where you can add Courses, see the Classes Today and mark your attendance. In the Overview Page you can check your attendance, increase or decrease the number of classes attended or missed by clicking on the Up or Down arrow under the resppective number. You can also delete any Courses by Tap and Holding (Long Press) on the Course and Selecting "Delete Course".
+  Summary of the Front-End Workflow of the App: After Logging in from the Login Page, you land at the Home Page where you can add Courses, see the Classes Today and mark your attendance. In the Overview Page you can check your attendance, increase or decrease the number of classes attended or missed by clicking on the Up or Down arrow under the respective number. You can also delete any Courses by Tap and Holding (Long Press) on the Course and Selecting "Delete Course".
 
 ## Installation
 
