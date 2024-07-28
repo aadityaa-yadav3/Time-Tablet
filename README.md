@@ -29,40 +29,50 @@ Introducing my versatile Timetable and Attendance App, crafted with Flutter and 
 ## Workflow
 
   <img src="images/Total-Workflow.png" alt="Total Workflow" />
-  **Summary of the Front-End Workflow of the App**: After Logging in from the Login Page, you land at the Home Page where you can add Courses, see the Classes Today and mark your attendance. In the Overview Page you can check your attendance, increase or decrease the number of classes attended or missed by clicking on the Up or Down arrow under the resppective number. You can also delete any Courses by Tap and Holding (Long Press) on the Course and Selecting "Delete Course".
+  Summary of the Front-End Workflow of the App: After Logging in from the Login Page, you land at the Home Page where you can add Courses, see the Classes Today and mark your attendance. In the Overview Page you can check your attendance, increase or decrease the number of classes attended or missed by clicking on the Up or Down arrow under the resppective number. You can also delete any Courses by Tap and Holding (Long Press) on the Course and Selecting "Delete Course".
 
 ## Installation
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/aadityaa-yadav3/Time-Tablet.git
-    cd Time-Tablet
-    ```
+### Installing from APK
+  1. **Download the APK**:
+      You can download the pre-built apk from this github page or by clicking [here](Time-Tablet.apk).
 
-2. **Install Dependencies**:
-    ```bash
-    flutter pub get
-    ```
+  2. Allow Downloads from Unkown Sources on your Android Device:
+      After Downloading the APK you can go into your settings to turn on ___Download from Unkown Sources___ option.
 
-3. **Configure Firestore**:
-    - Create a Firebase project at the Firebase Console.
-    - Add an Android and/or iOS app to your Firebase project and follow the setup instructions.
-    - Download the ___'google-services.json'___ file for Android and/or ___'GoogleService-Info.plist'___ file for iOS and place them in the respective directories in your Flutter project:
-      - ___'android/app'___ for ___'google-services.json'___
-      - ___'ios/Runner'___ for ___'GoogleService-Info.plist'___
-    - Ensure that you have configured Firestore in the Firebase console.
-    
-4. **Run the application & build for your platform**:
-    ```bash
-    flutter run
-    flutter build apk
-    ```
-   (to build the app on Anrdoid Platform)
-    ```bash
-    flutter run
-    flutter build apk
-    ```
-   (to build the app on Apple's iOS Platform)
+  3. Now you can click on the APK to start the installation process which should be done in a minute! You are all good to go and start using the Application now!
+
+### Building from the Source Code
+  1. **Clone the repository**:
+      ```bash
+      git clone https://github.com/aadityaa-yadav3/Time-Tablet.git
+      cd Time-Tablet
+      ```
+  
+  2. **Install Dependencies**:
+      ```bash
+      flutter pub get
+      ```
+  
+  3. **Configure Firestore**:
+      - Create a Firebase project at the Firebase Console.
+      - Add an Android and/or iOS app to your Firebase project and follow the setup instructions.
+      - Download the ___'google-services.json'___ file for Android and/or ___'GoogleService-Info.plist'___ file for iOS and place them in the respective directories in your Flutter project:
+        - ___'android/app'___ for ___'google-services.json'___
+        - ___'ios/Runner'___ for ___'GoogleService-Info.plist'___
+      - Ensure that you have configured Firestore in the Firebase console.
+      
+  4. **Run the application & build for your platform**:
+      ```bash
+      flutter run
+      flutter build apk
+      ```
+     (to build the app on Anrdoid Platform)
+      ```bash
+      flutter run
+      flutter build apk
+      ```
+     (to build the app on Apple's iOS Platform)
 
 ## Prerequisites
 - Before you begin, ensure you have the following installed:
